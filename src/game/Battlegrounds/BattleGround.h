@@ -73,7 +73,7 @@ enum BattleGroundMarks
 <<<<<<< HEAD
     SPELL_WS_ALLY_WINNER            = 23661,
     SPELL_WS_HORDE_WINNER           = 23702,
-    SPELL_AB_OLD_WINNER             = 24017,
+    SPELL_OLD_ARATHI_WINNER         = 24017,
     SPELL_WS_OLD_LOSER              = 24637,
 =======
 >>>>>>> parent of 7bbf047... New Progression System (#2954)

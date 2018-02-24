@@ -2328,9 +2328,13 @@ void Spell::DoCreateItem(SpellEffectIndex eff_idx, uint32 itemtype)
             bgType = BATTLEGROUND_WS;
             break;
 <<<<<<< HEAD
+<<<<<<< HEAD
         case SPELL_AB_OLD_WINNER:
 =======
 >>>>>>> parent of 7bbf047... New Progression System (#2954)
+=======
+        case SPELL_OLD_ARATHI_WINNER:
+>>>>>>> parent of ff6355f... Try to fix compile on linux and fix warnings.
         case SPELL_AB_MARK_WINNER:
         case SPELL_AB_MARK_LOSER:
             bgType = BATTLEGROUND_AB;
