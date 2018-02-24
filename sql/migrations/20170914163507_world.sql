@@ -1,13 +1,4 @@
-DROP PROCEDURE IF EXISTS add_migration;
-delimiter ??
-CREATE PROCEDURE `add_migration`()
-BEGIN
-DECLARE v INT DEFAULT 1;
-SET v = (SELECT COUNT(*) FROM `migrations` WHERE `id`='20170914163507');
-IF v=0 THEN
 INSERT INTO `migrations` VALUES ('20170914163507');
--- Add your query below.
-
 
 -- Fix Deathsworn Captain spawning in ShadowfangKeep
 
@@ -49,11 +40,3 @@ VALUES
 	(99291, 8, -202.219, 2102.72, 97.39, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0),
 	(99291, 9, -187.112, 2133.9, 97.39, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0),
 	(99291, 10, -189.958, 2128.48, 97.39, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0);
-
-
--- End of migration.
-END IF;
-END??
-delimiter ; 
-CALL add_migration();
-DROP PROCEDURE IF EXISTS add_migration;
