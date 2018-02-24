@@ -367,6 +367,7 @@ int Master::Run()
                 sLog.outString("mangosd process priority class set to HIGH");
             else
                 sLog.outError("Can't set mangosd process priority class.");
+            sLog.outString();
         }
     }
     #endif

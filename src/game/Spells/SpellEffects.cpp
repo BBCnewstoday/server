@@ -2323,14 +2323,14 @@ void Spell::DoCreateItem(SpellEffectIndex eff_idx, uint32 itemtype)
         case SPELL_AV_MARK_LOSER:
             bgType = BATTLEGROUND_AV;
             break;
-        case SPELL_WS_ALLY_WINNER:
-        case SPELL_WS_HORDE_WINNER:
-        case SPELL_WS_OLD_LOSER:
         case SPELL_WS_MARK_WINNER:
         case SPELL_WS_MARK_LOSER:
             bgType = BATTLEGROUND_WS;
             break;
+<<<<<<< HEAD
         case SPELL_AB_OLD_WINNER:
+=======
+>>>>>>> parent of 7bbf047... New Progression System (#2954)
         case SPELL_AB_MARK_WINNER:
         case SPELL_AB_MARK_LOSER:
             bgType = BATTLEGROUND_AB;
