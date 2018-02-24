@@ -367,7 +367,7 @@ class MANGOS_DLL_SPEC WorldSession
         void SendUpdateTrade(bool trader_state = true);
         void SendCancelTrade();
 
-        void SendPetitionQueryOpcode(uint32 petitionguid);
+        void SendPetitionQueryOpcode(ObjectGuid petitionguid);
 
         //pet
         void SendPetNameQuery(ObjectGuid guid, uint32 petnumber);
